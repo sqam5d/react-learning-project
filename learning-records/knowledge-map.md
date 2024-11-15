@@ -15,7 +15,22 @@
 - 自定义 Hooks
 
 ## 项目实践知识点
-（这里会随着项目学习逐步扩充）
+- React Router
+- Redux
+- 组件设计
+- 性能优化
+- AntDesign
+- UmiJS
 
-## 知识关联
-（记录知识点之间的联系，形成知识网络） 
+## 学习路线
+1. TypeScript 基础
+2. React 基础
+3. React 进阶
+4. 项目实战
+5. 原理深入
+
+## 资源索引
+- 视频教程：resources/video-notes
+- PDF文档：resources/pdf-notes
+- 练习代码：project/demo-projects/code
+- 实战项目：project/real-projects 

@@ -1,0 +1,29 @@
+.search {
+  // background: red;
+  height: 60px;
+  padding-right: 400px;
+  line-height: 60px;
+  border-bottom: 1px rgb(193, 189, 189) solid;
+  display: flex;
+
+  .title {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 5px;
+      height: 20px;
+      background: #1880ff;
+      margin-right: 8px;
+
+    }
+  }
+
+  .tree {
+    width: 300px;
+    margin: 0 30px;
+  }
+}

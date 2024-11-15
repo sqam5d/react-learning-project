@@ -1,0 +1,17 @@
+.person_info {
+  background: url(./assets/bg.png) no-repeat 80% 80%;
+  background-size: 500px;
+  background-color: #fff;
+  height: 100vh;
+
+  padding: 60px 150px;
+
+  .title {
+    font-size: 34px;
+    margin-bottom: 40px;
+
+    .blue {
+      color: #1880ff
+    }
+  }
+}

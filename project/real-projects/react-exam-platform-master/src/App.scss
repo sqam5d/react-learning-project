@@ -1,0 +1,10 @@
+.layout{
+  .header{
+    height: 80px;
+  }
+  .menu{
+    background: rgb(237, 236, 236);
+    padding: 30px;
+    min-height: calc(100vh - 140px);
+  }
+}

@@ -1,0 +1,59 @@
+.login {
+  height: 100vh;
+  background: url("./assets/login_bg.png") no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    width: 60%;
+    height: 70%;
+    background: white;
+    border-radius: 4%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+
+    .left {
+      position: absolute;
+      z-index: 999;
+      width: 50%;
+      height: 100%;
+      background: #EFF5FF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        height: 60%;
+      }
+    }
+
+    .right {
+      position: absolute;
+      z-index: 999;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .logo {
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+
+      }
+
+      .form {
+        width: 100%;
+        margin-top: 100px;
+
+        .code {
+          display: flex;
+        }
+      }
+    }
+  }
+}

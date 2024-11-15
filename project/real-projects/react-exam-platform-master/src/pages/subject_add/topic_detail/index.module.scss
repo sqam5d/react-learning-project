@@ -1,0 +1,20 @@
+.detail {
+  .header {
+    display: flex;
+    align-items: center;
+
+    .name {
+      margin: 10px;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      width: 5px;
+      height: 20px;
+      background: #1880ff;
+    }
+  }
+}

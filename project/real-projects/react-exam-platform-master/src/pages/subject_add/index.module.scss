@@ -1,0 +1,29 @@
+.wrap {
+  margin-top: 20px;
+  background: white;
+  min-height: 500px;
+  padding: 25px;
+
+  .container {
+    width: 90%;
+    height: 460px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+
+    .left {
+      // background: yellow;
+      box-sizing: border-box;
+      padding: 20px;
+      flex: 1 // width: 50%;
+    }
+
+    .right {
+      background: #f2f4f7;
+      box-sizing: border-box;
+      padding: 20px;
+      border-radius: 10px;
+      flex: 1 // width: 50%;
+    }
+  }
+}

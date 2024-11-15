@@ -1,0 +1,68 @@
+.wrap {
+  box-sizing: border-box;
+  background: #fff;
+  width: 100%;
+  min-height: calc(100vh - 200px);
+  padding: 30px;
+
+  .exam {
+    box-sizing: border-box;
+    padding: 10px;
+    // background: red;
+
+    .title {
+      color: rgb(255, 0, 140);
+      margin-bottom: 10px;
+    }
+
+    .content {
+      // background: green;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 20px;
+
+
+
+      :global {
+        .children {
+          cursor: pointer;
+          background-color: #a6c8be;
+          color: rgb(62, 62, 62);
+          font-size: 14px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          border-radius: 10px;
+        }
+
+        .disabled_children {
+          cursor: not-allowed;
+          background-color: #a6c8be;
+          color: rgb(62, 62, 62);
+          font-size: 14px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          border-radius: 10px;
+          user-select: none;
+          opacity: 0.3;
+        }
+
+        .select_children {
+          color: #1880ff;
+          background: url(./assets/class_acitveclass_acitve.png) no-repeat;
+          background-color: #a6c8be;
+          background-size: 15%;
+          background-position: 100% 90%;
+        }
+
+      }
+
+    }
+  }
+
+  .begin {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
